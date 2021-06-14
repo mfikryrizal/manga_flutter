@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:manga_flutter/components/manga_tile.dart';
-import 'package:manga_flutter/data/manga_tile_data.dart';
+import 'package:manga_flutter/components/manga_preview_tile.dart';
+import 'package:manga_flutter/model/manga_preview.dart';
 import 'package:network_image_mock/network_image_mock.dart';
 
-var mockData = MangaTileData(
+var mockData = MangaPreview(
     'Mock title',
     'https://homepages.cae.wisc.edu/~ece533/images/zelda.png',
     'https://homepages.cae.wisc.edu/~ece533/images/');
 
 Widget makeTestableWidget() => MaterialApp(
     home: Scaffold(
-        body: MangaTile(
+        body: MangaPreviewTile(
             title: mockData.title,
             imgSrc: mockData.imgSrc,
             ref: mockData.ref)));

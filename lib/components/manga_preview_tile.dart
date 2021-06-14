@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class MangaTile extends StatelessWidget {
-  MangaTile({required this.title, required this.imgSrc, required this.ref});
+class MangaPreviewTile extends StatelessWidget {
+  MangaPreviewTile(
+      {required this.title, required this.imgSrc, required this.ref});
 
   final String title, imgSrc, ref;
 
