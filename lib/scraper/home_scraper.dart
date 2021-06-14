@@ -1,5 +1,3 @@
-import 'package:manga_flutter/components/manga_tile.dart';
-
 import '../data/manga_tile_data.dart';
 import 'base_scraper.dart';
 import 'manganelo_base.dart';
