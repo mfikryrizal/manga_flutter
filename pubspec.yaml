@@ -1,5 +1,5 @@
 name: manga_flutter
-description: A new Flutter project.
+description: A simple manga reader built using Flutter 
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -27,7 +27,7 @@ dependencies:
   url_launcher:
   mime:
   file:
-  network_image_mock: ^2.0.1
+  dio:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -36,6 +36,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  network_image_mock: ^2.0.1
+  mockito:
+  http_mock_adapter:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
